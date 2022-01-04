@@ -1,10 +1,11 @@
-// function addition(num1, num2){
-//     let sum = 20 + 22;
-//     return sum;
-// }
-
-function addition() {
-    return 42;
+function addition(num1, num2){
+    // sum = num1 + num2;
+    // return sum;
+    return num1 + num2;
 }
+
+// function addition() {
+//     return 42;
+// }
 
 module.exports = addition;
