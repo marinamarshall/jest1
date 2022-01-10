@@ -11,7 +11,6 @@
     document.open();
     document.write(fileContents);
     document.close();
-
  });
  
  describe("DOM tests", () => {
@@ -23,7 +22,7 @@
      // Testing if h1 tag exists
      test("h1 should exist", () => {
          // Stored in an array, if h1 exists, length of array will be one
-         expect(document.getElementsByName("h1").length).toBe(1);
+         expect(document.getElementsByTagName("h1").length).toBe(1);
      });
  });
 
